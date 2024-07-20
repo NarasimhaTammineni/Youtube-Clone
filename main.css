@@ -41,10 +41,6 @@ p {
     margin-right: 15px;
 }
 
-.video-info {
-    flex: 1;
-}
-
 .title {
     font-size: 16px;
     font-weight: 500;
@@ -57,7 +53,13 @@ p {
 }
 
 .author {
+    display: flex;
+    align-items: center;
     margin-bottom: 3px;
+}
+
+.verification-img {
+    height: 15px;
 }
 
 .spec-img {
